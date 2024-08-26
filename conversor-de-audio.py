@@ -8,4 +8,5 @@ def converter_audio_em_texto(caminho_do_arquivo: str) -> str:
 
 
 if __name__ == '__main__':
-    print(converter_audio_em_texto("/Users/lucianogomes/Documents/Audios Teste/teste-arthur.m4a"))
+    caminho_do_arquivo = "COLOQUE O CAMINHO DO AUDIO AQUI"
+    print(converter_audio_em_texto(caminho_do_arquivo))
